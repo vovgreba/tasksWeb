@@ -1,0 +1,62 @@
+
+
+.container {
+    width: 900px;
+    margin: 100px auto;
+    font-size: 16px;
+    
+
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items li {
+    margin-left: 18px;
+}
+.title_aside {
+    margin: 0;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 19px 0;
+}
+.subtitle {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 1em 0;
+}
+
+.aside {
+    display: block;
+    width: 19%;
+    
+    
+}
+.title_aside {
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.items_aside li {
+    padding-bottom: 22px;
+    list-style: none;
+    
+}
+.header {
+    display: flex;
+    
+    margin: 100px 15px 0 15px;
+
+}
+.header_title {
+    width: 65%;
+    
+}
