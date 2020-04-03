@@ -8,15 +8,12 @@ body {
     margin: 100px auto;
     padding: 0 10px;
     font-size: 16px;
-
-
 }
 
 .header {
     display: flex;
     padding: 100px 15px 0 15px;
     flex-direction: row-reverse;
-
 }
 
 .header__title {
@@ -32,7 +29,6 @@ body {
     max-width: 65%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .aside {
@@ -44,8 +40,6 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-
-
 }
 
 .aside__title {
@@ -54,21 +48,18 @@ body {
 
 .heading {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-
 }
 
 .main__images img {
-
     max-width: 250px;
-
 }
 
 .main__items li {
@@ -79,6 +70,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin: 19px 0;
+    text-align: center;
 }
 
 .subtitle {
@@ -105,22 +97,27 @@ pre {
 
 .chapter--One {
     background-color: #84adf8;
+    padding: 0 10px;
 }
 
 .chapter--Two {
     background-color: #fcfcb9;
+    padding: 0 10px;
 }
 
 .chapter--Three {
     background-color: #f1d4b1;
+    padding: 0 10px;
 }
 
 .chapter--Four {
     background-color: #afafcf;
+    padding: 0 10px;
 }
 
 .chapter--Five {
     background-color: #47dddd;
+    padding: 0 10px;
 }
 
 .chapter__link {
@@ -131,16 +128,16 @@ pre {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 20px;
-    border:  solid 1px transparent;
+    border: solid 1px transparent;
     border-radius: 20px;
     padding: .4em;
     background-color: #d6dbf4;
 }
+
 .chapter__link a {
     padding: .9em;
     color: #240505;
 }
-
 
 .chapter__link:hover {
 
