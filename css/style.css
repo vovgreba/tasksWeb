@@ -27,8 +27,7 @@ body {
 .header__text {
     /* width: 980px; */
     max-width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .aside {
@@ -36,9 +35,7 @@ body {
     background-color: #abadb6a3;
     display: block;
     width: 12%;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 30px 10px 0 10px;
     text-align: center;
 }
 
@@ -69,8 +66,9 @@ body {
 .title {
     font-size: 20px;
     font-weight: bold;
-    margin: 19px 0;
+    padding: 10px 0;
     text-align: center;
+    margin-top: 10px;
 }
 
 .subtitle {
@@ -80,7 +78,7 @@ body {
 
 pre {
     white-space: pre-wrap;
-    margin: 1em 0;
+    /* margin: 1em 0;  */
 }
 
 .aside__title {
@@ -97,27 +95,31 @@ pre {
 
 .chapter--One {
     background-color: #84adf8;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
 }
 
 .chapter--Two {
     background-color: #fcfcb9;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
 }
 
 .chapter--Three {
     background-color: #f1d4b1;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
 }
 
 .chapter--Four {
     background-color: #afafcf;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
 }
 
 .chapter--Five {
     background-color: #47dddd;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .chapter__link {
