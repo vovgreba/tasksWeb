@@ -1,39 +1,86 @@
-
+body {
+    background-color: #9cbce7c7;
+}
 
 .container {
-    max-width: 980px;
+    /* max-width: 980px; */
+    max-width: 65%;
     margin: 100px auto;
     padding: 0 10px;
     font-size: 16px;
-    
+
 
 }
+
+.header {
+    display: flex;
+    padding: 100px 15px 0 15px;
+    flex-direction: row-reverse;
+
+}
+
+.header__title {
+    text-align: center;
+    font-size: 46px;
+    line-height: 2;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.header__text {
+    /* width: 980px; */
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.aside {
+    position: fixed;
+    background-color: #abadb6a3;
+    display: block;
+    width: 12%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+
+}
+
+.aside__title {
+    margin: 0;
+}
+
 .heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .main {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 
 }
+
 .main__images img {
-    
+
     max-width: 250px;
 
-} 
+}
+
 .main__items li {
     margin-left: 18px;
 }
-.aside__title {
-    margin: 0;
-}
+
 .title {
     font-size: 20px;
     font-weight: bold;
     margin: 19px 0;
 }
+
 .subtitle {
     font-size: 17px;
     font-weight: bold;
@@ -44,30 +91,58 @@ pre {
     margin: 1em 0;
 }
 
-.aside {
-    display: block;
-    width: 19%;
-    
-    
-}
 .aside__title {
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 }
 
 .aside__item {
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     list-style: none;
-    
-}
-.header {
-    display: flex;
-    
-    margin: 100px 15px 0 15px;
 
 }
-.header_text {
-    width: 65%;
-    
+
+.chapter--One {
+    background-color: #84adf8;
+}
+
+.chapter--Two {
+    background-color: #fcfcb9;
+}
+
+.chapter--Three {
+    background-color: #f1d4b1;
+}
+
+.chapter--Four {
+    background-color: #afafcf;
+}
+
+.chapter--Five {
+    background-color: azure;
+}
+
+.chapter__link {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border:  solid 1px transparent;
+    border-radius: 20px;
+    padding: .4em;
+    background-color: #d6dbf4;
+}
+.chapter__link a {
+    padding: .9em;
+    color: #240505;
+}
+
+
+.chapter__link:hover {
+
+    background-color: #b4b4ab;
 }

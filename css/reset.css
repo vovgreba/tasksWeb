@@ -36,3 +36,12 @@ a {
 	color: #000;
 	
 }
+/* reset button styles */
+
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+} 
