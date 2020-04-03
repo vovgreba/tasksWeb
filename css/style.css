@@ -90,6 +90,7 @@ body {
 }
 
 .aside__item {
+    display: block;
     padding-bottom: 30px;
     list-style: none;
 
