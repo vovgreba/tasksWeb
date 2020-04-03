@@ -1,15 +1,3 @@
-// $(document).ready(function() {
-//     $('a[href^="#"]').click(function(){
-//         var elementClick = $(this).attr("href")
-//          var destination = $(elementClick).offset().top;
-//         if($.browser.safari){
-//             $('body').animate( { scrollTop: destination }, 1000);
-//           } else {
-//             $('html').animate({ scrollTop: destination }, 1000);
-//           };
-//           return false;
-//     });
-// }); 
 
 $(document).ready(function() {
     $('a[href^="#"]').click(function() {
@@ -20,4 +8,8 @@ $(document).ready(function() {
       }, 1500);
       return false;
     });
+
+    $('.menu__btn').click(function(){
+      $('.aside__navigation').toggle("slow");
+  })
   });
