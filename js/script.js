@@ -10,19 +10,18 @@ $(document).ready(function () {
 
   $('.menu__btn').click(function () {
 
-    $('.aside__navigation').fadeToggle("slow");
+    $('.aside__navigation').toggle("slow");
   })
- 
-  
 });
 
-jQuery(function($){
-	$(document).mouseup(function (e){ // событие клика по веб-документу
-    var div = $(".aside__navigation"); // тут указываем ID элемента
-		if (!div.is(e.target) // если клик был не по нашему блоку
-		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
-			div.hide(); // скрываем его
-    } 
-   
-	});
+jQuery(function ($) {
+  $(document).mouseup(function (e) { // событие клика по веб-документу
+    var div = $(".menu__nav"); // тут указываем ID элемента
+    var btn = $(".aside__navigation");
+    if (!div.is(e.target) // если клик был не по нашему блоку
+      &&
+      div.has(e.target).length === 0) { // и не по его дочерним элементам
+      btn.hide("slow"); // скрываем его
+    }
+  });
 });
