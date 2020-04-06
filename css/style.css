@@ -1,195 +1,58 @@
-body {
-    background-color: #9cbce7c7;
+* {
+    box-sizing: border-box;
 }
-
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    font-size: 15px;
+}
 .container {
-    /* max-width: 980px; */
-    max-width: 65%;
-    margin: 100px auto;
-    padding: 0 10px;
-    font-size: 16px;
+    padding: 0 8% 0 8%;
 }
-
-
-
-.header__title {
-    text-align: center;
-    font-size: 46px;
-    line-height: 2;
-    letter-spacing: 3px;
-    font-weight: bold;
-    padding: 100px 0 0 15px;
-}
-
-.header__text {
-    /* width: 980px; */
-    max-width: 65%;
-    margin: 0 auto;
-}
-
-.aside {
-    position: fixed;
-
-}
-
-.aside__navigation {
-    position: fixed;
-    background-color: #6f7382a3;
-    display: none;
-    width: 350px;
-    top: 0;
+.container__inner {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #ebebeb;
+    max-width: 1010px;
+    left: 0;
     right: 0;
-    text-align: center;
-    padding: 35px 0;
-    border-radius: 20px;
-
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 6% 2% 4% 10%;
 }
-
-.menu__btn {
-    width: 30px;
-    height: 20px;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.menu__btn span {
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    top: 9px;
-    background-color: #fff;
-    transition: transform 2s;
-}
-
-.menu__btn:hover span {
-    background-color: #fff;
-    width: 32px;
-    transition: transform 1.5s;
-    transform: rotate(151deg);
-}
-
-.menu__btn::after,
-.menu__btn::before {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-}
-
-.menu__btn::after {
-    top: 0;
-}
-
-.menu__btn::before {
-    bottom: 0;
-}
-
-.aside__title {
-    margin: 0;
-    padding-bottom: 10px;
-
-}
-
-.aside__item {
-    display: block;
-    padding-bottom: 30px;
-    list-style: none;
-
-}
-
-.aside_subtitle {
-    display: block;
-}
-
-
-.heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-
-.main__images img {
-    max-width: 250px;
-}
-
-.main__items li {
-    margin-left: 18px;
-}
-
-.title {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 0;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.subtitle {
-    font-size: 17px;
-    font-weight: bold;
-}
-
-pre {
-    white-space: pre-wrap;
-    /* margin: 1em 0;  */
-}
-
-.chapter--One {
-    background-color: #84adf8;
-    padding: 0 10px 10px 10px;
-    margin-bottom: 15px;
-}
-
-.chapter--Two {
-    background-color: #fcfcb9;
-    padding: 0 10px 10px 10px;
-    margin-bottom: 15px;
-}
-
-.chapter--Three {
-    background-color: #f1d4b1;
-    padding: 0 10px 10px 10px;
-    margin-bottom: 15px;
-}
-
-.chapter--Four {
-    background-color: #afafcf;
-    padding: 0 10px 10px 10px;
-    margin-bottom: 15px;
-}
-
-.chapter--Five {
-    background-color: #47dddd;
-    padding: 0 10px 10px 10px;
-}
-
-.chapter__link {
+.container__img {
     display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    border: solid 1px transparent;
-    border-radius: 20px;
-    padding: .4em;
-    background-color: #d6dbf4;
-    color: #280909;
 }
 
-.chapter__link:hover {
-    background-color: #b4b4ab;
+.container__text {
+    display: inline-block;
+    max-width: 60%;
+    padding-left: 15%;
 }
 
+.container_title {
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.continer__subtitle {
+    font-size: 15px;
+    padding-top: 29px;
+}
+.container__price {
+    padding-top: 53px;
+}
+.container__price span{
+    display: block;
+    font-size: 30px;
+    margin-top: 17px;
+}
+.container__btn {
+    color: #fff;
+    background-color: #ec744a;
+    padding: 13px 39px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    margin-top: 56px;
+}
