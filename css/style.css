@@ -1,58 +1,88 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html, body {
+
+body {
+    background-color: #f9f9f9;
     width: 100%;
     height: 100%;
-    background-color: #f6f6f6;
-    font-size: 15px;
+    font-size: 16px;
 }
+
 .container {
-    padding: 0 8% 0 8%;
-}
-.container__inner {
     position: absolute;
-    background-color: #fff;
-    border: 2px solid #ebebeb;
-    max-width: 1010px;
-    left: 0;
     right: 0;
-    margin: 0 auto;
+    left: 0;
     top: 50%;
     transform: translate(0, -50%);
-    padding: 6% 2% 4% 10%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.container__img {
-    display: inline-block;
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 120px;
 }
-
-.container__text {
-    display: inline-block;
-    max-width: 60%;
-    padding-left: 15%;
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
-
-.container_title {
-    font-size: 22.5px;
+.cards__box img {
+    padding-bottom: 25px;
+}
+.cards__box p {
+    padding-bottom: 25px;
+}
+.subtitle__price {
+    font-size: 18px;
     font-weight: bold;
 }
-.continer__subtitle {
-    font-size: 15px;
-    padding-top: 29px;
+.btn {
+    background-color: #f9f9f9;
+    border: 1px solid #23bac1;
+    color: #23bac1;
+    font-size: 1em;
+    padding: 12px 75px;
 }
-.container__price {
-    padding-top: 53px;
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        transform: none;
+        top: 0;
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+    .cards__box {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .title {
+        margin: 50px 0;
+    }
 }
-.container__price span{
-    display: block;
-    font-size: 30px;
-    margin-top: 17px;
+@media (max-width: 700px) {
+    .cards {
+        display: block;
+    }
+    .cards__box {
+        width: 100%;
+    }
+    .title {
+        margin: 35px 20px;
+    }
 }
-.container__btn {
-    color: #fff;
-    background-color: #ec744a;
-    padding: 13px 39px;
-    font-size: 19px;
-    letter-spacing: 0.5px;
-    margin-top: 56px;
+@media (max-width: 400px) {
+    .title {
+        font-size: 24px;
+    }
+    .cards__box img {
+        width: 50%;
+    } 
+
 }
